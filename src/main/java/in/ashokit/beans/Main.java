@@ -17,6 +17,8 @@ public class Main {
 		 
 		PaymentProcessor bean = factory.getBean("paymentProcessor",PaymentProcessor.class);
 		bean.doPayment(120.00);
+
+	System.out.println("added code from local");
 		 
 		
 	}
